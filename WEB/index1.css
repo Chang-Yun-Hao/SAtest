@@ -47,7 +47,7 @@ main{
     -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.308));
 }
 .nofoottext{
-    font-size: 1vh;
+    font-size: 15px;
     font-family: "微軟正黑體";
     font-weight: bold;
     text-align: center;
