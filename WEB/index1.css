@@ -80,4 +80,6 @@ img{
 .btext{
     font-size:x-small;
     font-family: "微軟正黑體";
+    font-weight: bold;
+    letter-spacing: 2px;
 }
