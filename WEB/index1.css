@@ -108,6 +108,7 @@ img{
     font-size: 2.1vh;
     padding-bottom: 1vh;
     /*border: darkblue solid 0.1px;*/
+    width: 27vh;
 }
 .enter{
     /*border: rgba(54, 211, 67, 0.699) solid 0.1px;*/
@@ -119,6 +120,7 @@ img{
     float: right;
     font-family: "微軟正黑體";
     font-weight: bold;
+    font-size: 2vh;
     /*border: rgba(54, 211, 67, 0.699) solid 0.1px;*/
     height: 100%;
     display: flex;
@@ -131,4 +133,5 @@ img{
     position: relative;
     top: -5px;
     left: 5px;
+    overflow: hidden;
 }
