@@ -7,13 +7,13 @@ body{
     /*border: solid darkblue;*/
     background-color: #3e4674;
 }
-header{
+.headeer{
     width: 100%;
     height: 15%;
     /*border: tan solid;*/
 }
 
-.title{
+.titletxt{
     font-size: 3.5vh;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -69,26 +69,49 @@ main{
     box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 10px;
     display: flex;
 }
-.icon{
+.a_button{
     width: 33%;
     height: 100%;
     border: thin;
     background: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(0, 0, 0);
 }
-.icon2{
+.a_button2{
     width: 34%;
     height: 100%;
     border: thin;
     background: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(0, 0, 0);
 }
-img{
+
+.a_content{
+    margin: auto;
+}
+.name img{ /*上面icon的*/
     /*margin: 0 auto;*/
     width: 3vh;
+    margin: auto 0;
 }
+
+.a_content img{
+    width: 3vh;
+}
+
 .btext{
-    font-size:x-small;
+    font-size:1vh;
     font-family: "微軟正黑體";
     letter-spacing: 2px;
+    margin: auto 0;
+    position: relative;
+    left: -1px;
+}
+.btext2{
+    font-size:1vh;
+    font-family: "微軟正黑體";
+    letter-spacing: 2px;
+    margin: auto 0;
 }
 
 .left{
