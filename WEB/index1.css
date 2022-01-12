@@ -158,3 +158,124 @@ main{
     left: 5px;
     overflow: hidden;
 }
+
+/*------------------------------------*/
+
+
+.main_place{
+    /*border: darkgoldenrod 0.1px solid;*/
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.308));
+    padding: 4vw;
+    font-family: "微軟正黑體";
+}
+
+.main_place_name{
+    /*border: solid slateblue;*/
+    background-color: rgb(240, 240, 240);  /*252, 248, 243*/
+    height: 80px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+
+.main_place_left{
+    background: rgb(115, 146, 165);
+    width: 5px;
+    height: 70%;
+    margin: 10px 0 10px 15px;
+    float: left;
+}
+.main_place_center{
+    /*border: solid slateblue;*/
+    margin: 10px 0 10px 20px;
+    float: left;
+}
+.main_place_centerup{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main_place_centerdown{
+    color: rgb(148, 148, 148);
+    font-weight: bold;
+    font-size:2vw;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    width: 50vw;
+    /*border: solid 0.1px;*/
+}
+.main_place_right{
+    /*border: solid;*/
+    width: 40px;
+    float: right;
+    margin: 20px 10px 0 0;
+}
+.main_place_right img{
+    width: 40px;
+    display: flex;
+}
+
+.main_place_detail{
+    /*border: solid rgb(109, 205, 90);*/
+    background-color: rgb(240, 240, 240);
+    border-radius: 9px;
+}
+.main_place_detailup{
+    display: flex;
+}
+
+.main_place_detail_left{
+    /*border: slateblue solid;*/
+    font-size: 10px;
+    height: 150px;
+    line-height: 29px;
+    font-weight: bold;
+    margin: 5px 0 0 10vw;
+    letter-spacing: 0.3px;
+}
+.main_place_detail_right{
+    /*border: rgb(90, 205, 161) solid;*/
+    font-size: 10px;
+    height: 150px;
+    line-height: 29px;
+    font-weight: bold;
+    margin: 5px 0 0 25px;
+    color: rgb(107, 116, 124);
+    letter-spacing: 0.3px;
+}
+
+.main_place_detaildown{
+    border-top: dashed 3px  rgb(189, 189, 189);
+    margin: 5px 15px 0 15px;
+    padding: 10px 0 15px 0;
+    text-align: center;
+    color: rgb(190, 36, 36);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.attachtextbox{
+    /*border: solid springgreen;*/
+    text-align: center;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    color: rgb(141, 141, 141);
+    margin:10px 0;
+}
+
+.attachtextbox div{
+    letter-spacing: 3px;
+    display: inline;
+}
