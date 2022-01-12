@@ -1,30 +1,33 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-.boddy{
+
+.TrackList {
     height: 100vh;
     /*border: solid darkblue;*/
     background-color: #3e4674;
 }
-.headeer{
+
+.TrackListHeader {
     width: 100%;
-    height: 15%;
+    height: 17%;
     /*border: tan solid;*/
 }
 
-.titletxt{
+.titletxt {
     font-size: 3.5vh;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 3vh 0 0px 0;
+    padding: 1vh 0 0px 0;
     /*border: solid  springgreen;*/
 }
-main{
+
+.listmain {
     width: 100%;
     /*border: solid rgb(228, 59, 177);*/
-    height: 82%;
+    height: 80%;
     position: relative;
     top: -5%;
     border-radius: 25px 25px 0 0;
@@ -32,13 +35,15 @@ main{
     padding: 0 0 0px 0;
     -webkit-filter: drop-shadow(0px -2px 3px rgba(0, 0, 0, 0.603));
 }
-.box{
+
+.box {
     /*border: darkgreen solid;*/
     height: 96%;
     padding: 20px 0 0px 0;
     overflow: auto;
 }
-.boxx{
+
+.boxx {
     /*border: darkgoldenrod solid ;*/
     height: 100px;
     width: 88vw;
@@ -48,7 +53,8 @@ main{
     background-color: rgb(255, 255, 255);
     -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.308));
 }
-.nofoottext{
+
+.nofoottext {
     font-size: 15px;
     font-family: "微軟正黑體";
     font-weight: bold;
@@ -60,7 +66,7 @@ main{
 }
 
 
-.but{
+.but {
     width: 100%;
     /*border: darkgreen solid;*/
     height: 8%;
@@ -69,7 +75,8 @@ main{
     box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 10px;
     display: flex;
 }
-.a_button{
+
+.a_button {
     width: 33%;
     height: 100%;
     border: thin;
@@ -77,88 +84,115 @@ main{
     display: flex;
     color: rgb(0, 0, 0);
 }
-.a_button2{
+
+.a_button2 {
     width: 34%;
     height: 100%;
     border: thin;
     background: rgb(255, 255, 255);
     display: flex;
-    color: rgb(0, 0, 0);
+    color: #2c3e50;
 }
 
-.a_content{
+.a_content {
     margin: auto;
 }
-.name img{ /*上面icon的*/
+
+.a_content2 {
+    margin: auto;
+    -webkit-filter: drop-shadow(0px -2px 3px rgba(40, 70, 134, 0.603));
+}
+
+.name img {
+    /*上面icon的*/
     /*margin: 0 auto;*/
     width: 3vh;
     margin: auto 0;
 }
 
-.a_content img{
+.a_content img {
     width: 3vh;
 }
 
-.btext{
-    font-size:1vh;
+.a_content2 img {
+    width: 3vh;
+}
+
+.btext {
+    font-size: 1.5vh;
     font-family: "微軟正黑體";
     letter-spacing: 2px;
     margin: auto 0;
     position: relative;
-    left: -1px;
+    left: -0.2vw;
 }
-.btext2{
-    font-size:1vh;
+
+.btext2 {
+    font-size: 1.5vh;
     font-family: "微軟正黑體";
     letter-spacing: 2px;
     margin: auto 0;
+    position: relative;
+    left: 0.3vw;
+    color: #3e4674;
 }
 
-.left{
+.btext3 {
+    font-size: 1.5vh;
+    font-family: "微軟正黑體";
+    letter-spacing: 2px;
+    margin: auto 0;
+    position: relative;
+    left: 0.3vw;
+}
+
+.left {
     float: left;
     font-family: "微軟正黑體";
-    /*border: rgb(211, 54, 159) solid 0.1px;*/
+    /* border: rgb(211, 54, 159) solid 0.1px; */
     height: 100%;
-    display:flex;
+    display: flex;
 }
-.leftinsidebox{
+
+.leftinsidebox {
     margin: auto;
     margin-left: 3vh;
 }
-.name{
+
+.name {
     /*padding-left: 0px;*/
     font-weight: bold;
     font-size: 2.3vh;
     padding-bottom: 1vh;
-    /*border: darkblue solid 0.1px;*/
+    /* border: darkblue solid 0.1px; */
     width: 27vh;
+    text-align: left;
 }
-.enter{
+
+.enter {
     /*border: rgba(54, 211, 67, 0.699) solid 0.1px;*/
     color: #707070;
     font-size: 2vh;
 }
 
-.right{
+.right {
     float: right;
     font-family: "微軟正黑體";
     font-weight: bold;
-    font-size: 2vh;
-    /*border: rgba(54, 211, 67, 0.699) solid 0.1px;*/
+    font-size: 2.4vh;
+    /* border: rgba(54, 211, 67, 0.699) solid 0.1px; */
     height: 100%;
     display: flex;
     align-items: center;
-    padding:0 1.3vh;
+    padding: 0 1.2vh 0 0;
 }
 
-.addresstext{
+.addresstext {
     display: inline;
     position: relative;
     top: -5px;
     left: 5px;
-    overflow: hidden;
 }
-
 /*------------------------------------*/
 
 
@@ -256,13 +290,6 @@ main{
     color: rgb(190, 36, 36);
     font-weight: bold;
 }
-
-
-
-
-
-
-
 
 
 
